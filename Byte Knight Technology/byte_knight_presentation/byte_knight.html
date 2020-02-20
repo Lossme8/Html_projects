@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Byte_Knight</title>
+      <link rel='stylesheet' href='byte_knight.css'/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <!---header container--->
+    <div class='header-container'>
+    <div class='header'>
+    <div class='logo'><img src='logo.png'/></div>
+    </div>
+    </div>
+    <!---Navigation--->
+        <div class="topnav">
+        <a class="active" href="#home">HOME</a>
+       <a href="\\bwb-ad01\Redir\student-cpt-057\Documents\HTML_Projects\About_us.html">ABOUT US</a>
+       <a href="\\bwb-ad01\Redir\student-cpt-057\Documents\HTML_Projects\DAY3 FLEXBOX\Day3_Activity1.html">PRODUCTS</a>
+       <a href="#services">SERVICES</a>
+     </div>
+    <!---menu container--->
+    <div class='menu-container'>
+    <div class='menu'>
+        <div class='links'>
+      <div class='pic'><img src="monitor.png"; width="240px" lenght="200px"></div>
+        <div class='pic'><img src="untitled.png"; width="240px" length="200px"></div>
+        <div class='pic'><img src="monitor.png"; width="240px" length="200px"></div>
+        <div class='pic'><img src="wewee.jpg"; width="240px" length="200px"></div>
+        <div class='pic'><img src="com.png"; width="240px" length="200px"></div>
+        <div class='pic'><img src="wewee.jpg"; width="240px" length="200px"></div>
+      </div>
+      </div>
+      </div>
+
+
+<div id="main">
+<!---Navigation bar-->
+  <nav>
+    <!---collapsible--->
+    <button type="button" class="collapsible">COMPUTERS:</button>
+<div class="content">
+    <p>Apple</p>
+    <p>Dell</p>
+    <p>Lenovo</p>
+    <p>Acer</p>
+    <p>Toshiba</p>
+    <p>Samsung</p>
+</div>
+<button type="button" class="collapsible">LAPTOPS:</button>
+<div class="content">
+<p>Apple</p>
+<p>Dell</p>
+<p>Lenovo</p>
+<p>Acer</p>
+<p>Toshiba</p>
+<p>Samsung</p>
+</div>
+
+<!---javascript--->
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+ </nav>
+   <article>
+     <main class="cards">
+       <a href="\\bwb-ad01\Redir\student-cpt-057\Documents\HTML_Projects\DAY3 FLEXBOX\Day3_Activity1.html">
+       <img src="imagesBZX0T79D.jpg"/>
+     </a>
+       <img src="shopping1.jpg" alt="Sample photo">
+       <img src="com.png" alt="Sample photo">
+       <img src= "screeen.jpg" alt="Sample photo">
+       <img src="shopping.jpg" alt="Sample photo">
+       <img src="imagesBZX0T79D.jpg" alt="Sample photo">
+
+     </main>
+   </article>
+  <aside>
+ <i class="fa fa-shopping-cart" style="font-size:58px;color:red"></i><br>
+  <button style="font-size:25px">Shop Online</button>
+  </aside>
+</div>
+<footer>
+  <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+(c) Copyright
+</footer>
+  </body>
+</html>
