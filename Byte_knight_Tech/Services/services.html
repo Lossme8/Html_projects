@@ -1,0 +1,215 @@
+<!doctype html>
+<title>SERVICES</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  * {
+   box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+  }
+  .header-container {
+  color: #5995DA;
+  background-color: khaki;
+  display: flex;
+  justify-content: flex-start;
+  }
+
+  .header {
+  width: 200px;
+  height: 130px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; /* Add this */
+  }
+  /* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+     .topnav {
+       overflow: hidden;
+       background-color: black;
+    }
+
+     .topnav a {
+       float: left;
+       display: block;
+       color: khaki;
+       text-align: center;
+       padding: 20px 25px;
+       text-decoration: none;
+       font-size: 17px;
+     }
+
+     .topnav a:hover {
+       background-color: khaki;
+       color: black;
+     }
+
+     .topnav a.active {
+       background-color: khaki;
+       color: black;
+     }
+     .topnav .search-container {
+       float: right;
+     }
+
+     .topnav input[type=text] {
+       padding: 6px;
+       margin-top: 8px;
+       font-size: 17px;
+       border: none;
+     }
+
+     .topnav .search-container button {
+       float: right;
+       padding: 6px;
+       margin-top: 8px;
+       margin-right: 16px;
+       background: khaki;
+       font-size: 17px;
+       border: none;
+       cursor: pointer;
+     }
+
+     .topnav .search-container button:hover {
+       background: khaki;
+     }
+  #main {
+    display: flex;
+    min-height: calc(100vh - 40vh);
+  }
+  #main > article {
+    flex: 1;
+  }
+  #main > nav,
+  #main > aside {
+    flex: 0 0 20vw;
+    background: khaki;
+  }
+  #main > nav {
+    order: -1;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+  header, footer {
+    background: khaki;
+    height: 15vh;
+    border:solid;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: flex-end;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+
+</style>
+
+<body>
+  <!---header container--->
+  <div class='header-container'>
+  <div class='header'>
+      <div class='logo'><img src='Byte Knight Nelson 3.jfif'; width=200px height=130px /></div>
+ <!-- <a href="file://bwb-ad01/Redir/student-cpt-057/Documents/HTML_Projects/byteknight/byte_knight.html"><div class='logo'><img src='Byte Knight Nelson 3.jfif '/></div>-->
+  </div>
+  </div>
+
+ <!-- Navigation-->
+<!-- Navigation-->
+<div class="topnav">
+  <a  href="../byteknight/byte_knight.html">HOME</a>
+  <a href="../about us/About_us.html">ABOUT US</a>
+  <a href="../DAY3 FLEXBOX/Day3_Activity1.html">PRODUCTS</a>
+  <a class = "active" href="../HTML_Projects/services/services.html">SERVICES</a>
+  <a href="../Contact us/contact us demo.html">CONTACT US</a>
+  <a href="../DAY3 FLEXBOX/Day3_Activity1.html" ><i class="fa fa-shopping-cart" style="font-size:20px;color:khaki;"></i><br></a>
+
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit">SEARCH</button>
+    </form>
+  </div>
+</div>
+
+  <div id="main">
+    <article>COURSES:
+<ul>
+  <li>Graphic Design</li>
+  <img src="glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg" width="400px" height="300px">
+  <li>End User Computer</li>
+  <img src="marvin-meyer-SYTO3xs06fU-unsplash.jpg" width="400px" height="300px">
+  <li>Web Development</li>
+    </article>
+    <nav>SERVICES:
+<ul>
+<li>Support</li>
+<li>Protect</li>
+<li>Setup</li>
+<li>Upgrade</li>
+<li>Repair</li>
+</ul>
+<br>
+<img src="frank-wang-ogxlyCA1BQc-unsplash.jpg" width="200px" length="200px">
+    </nav>
+    <aside>COMPONENTS:
+      <ul>
+      <li>Random Access Memory</li>
+      <img src="franck-v-nuc3NFB_6po-unsplash.jpg" width="200px" length="200px">
+      <li>Control Processing Unit</li>
+      <img src="christian-wiediger-eo5jK8Mmz68-unsplash.jpg" width="200px" length="200px">
+      <li>Hard Drive</li>
+      <img src="markus-spiske-5yEiCUynJ9w-unsplash.jpg" width="200px" length="200px">
+    </ul>
+    </aside>
+  </div>
+  <footer>
+    <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-google"></a>
+  <a href="#" class="fa fa-linkedin"></a>
+  <a href="#" class="fa fa-youtube"></a>
+  <a href="#" class="fa fa-instagram"></a>
+    &copy Copyright</footer>
+</body>

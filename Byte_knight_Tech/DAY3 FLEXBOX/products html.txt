@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Day3_Activity1</title>
+      <link rel='stylesheet' href='Day3_Activity1.css'/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!--
+    <header><h1>Header</h1></header>
+  -->
+  <div class='header-container'>
+  <div class='header'>
+  <a href="file://bwb-ad01/Redir/student-cpt-057/Documents/HTML_Projects/byteknight/byte_knight.html"><div class='logo'><img src='Byte Knight Nelson 3.jfif'/></div>
+  </div>
+  </div>
+
+  <!-- Navigation-->
+  <div class="topnav">
+      <a href="file:///C:/Users/Itumeleng%20Mashishi/Downloads/HTML%20projects/Dev_Team%20Folder/byteknight/byte_knight.html">HOME</a>
+     <a href="file:///C:/Users/student-cpt-059/OneDrive/byte/about%20us/About_us.html">ABOUT US</a>
+     <a class="active" href="#products">PRODUCTS</a>
+     <a href="file://bwb-ad01/Redir/student-cpt-057/Documents/HTML_Projects/services/services.html">SERVICES</a>
+     <a href="file://bwb-ad01/Redir/student-cpt-057/Documents/HTML_Projects/services/services.html">CONTACT US</a>
+     <a href="file://bwb-ad01/Redir/student-cpt-057/Documents/HTML_Projects/DAY3%20FLEXBOX/Day3_Activity1.html"<i class="fa fa-shopping-cart" style="font-size:20px;color:khaki;"></i><br></a>
+     <div class="search-container">
+         <form action="/action_page.php">
+           <input type="text" placeholder="Search.." name="search">
+           <button type="submit">SEARCH</button>
+         </form>
+       </div>
+   </div>
+
+ <div id="main">
+   <article>
+
+<h2 style="text-align:center">DELL</h2>
+
+<div class="card">
+  <img src="ivan-shilov-wClKnF71QBk-unsplash.jpg" alt="Dell laptop" style="width:50%">
+  <h1>Dell Inspiron</h1>
+  <p class="price">R12000</p>
+  <p>Dell Inspiron 3580 Series 8th gen IS3580-i78565-81TBGFX Black Notebook, Intel Core i7 Kaby Lake Quad Core i7-8565U 1.8Ghz with Turbo Boost up to 4.6Ghz  </p>
+  <p><button>Add to Cart</button></p>
+</div>
+<h2 style="text-align:center"></h2>
+<div class="card">
+  <img src="mb1.jpg" alt="Acer" style="width:50%">
+  <h1>Asus H110M-R Motherboard</h1>
+  <p class="price">R 1,261</p>
+  <p>- Intel for 6th Generation Core i7/Core i5/Core
+- Intel H110
+- 2 x DIMM, Max. 32GB, DDR3 1866(O.C.)/1600/1333 MHz Non-ECC, Un-buffered Memory
+- Integrated Graphicss Processor- Intel® HD Graphicss support
+- 1 x PCIe 3.0/2.0 x1 (x16 mode) </p>
+  <p><button>Add to Cart</button></p>
+</div>
+<div class="card">
+  <img src="goran-ivos-iOykDIkZLQw-unsplash.jpg" alt="Dell" style="width:50%">
+  <h1>Dell Latitude </h1>
+  <p class="price">R19000</p>
+  <p>Dell Latitude 5500 Intel Core i5-8365U (4.1GHz 6MB) Integrated UHD Graphics 620 15.6 Non-Touch Wide View  </p>
+  <p><button>Add to Cart</button></p>
+</div>
+<div class="card">
+  <img src="ehd 2.jpg" alt="Acer" style="width:50%">
+  <h1>WD Elements Portable 3.0TB USB3.0</h1>
+  <p class="price">R 1,459</p>
+  <p>WD Elements Portable Storage
+WD Elements portable storage with USB 3.0 delivers universal connectivity.
+The small, lightweight enclosure perfectly fits their style and is backed up by WD quality and reliability. </p>
+  <p><button>Add to Cart</button></p>
+</div>
+   </article>
+
+   <nav>
+     <h2 style="text-align:center">ACER</h2>
+
+     <div class="card">
+       <img src="michael-geiger-JJPqavJBy_k-unsplash.jpg" alt="Acer" style="width:50%">
+       <h1>Acer TravelMate P6 </h1>
+       <p class="price">R10500</p>
+       <p>NEW! Acer Acer TravelMate P6 Notebook, Intel Core i5 4200U 1.6GHz Dual Core, 4GB, 500GB, Windows 7 Pro 64Bit - certified refurbished (Note: Refurbished products...  </p>
+       <p><button>Add to Cart</button></p>
+     </div>
+     <h2 style="text-align:center"></h2>
+     <div class="card">
+       <img src="mouse 1.jpg" alt="Acer" style="width:50%">
+       <h1> Corded mouse</h1>
+       <p class="price">R150</p>
+       <p> Corded mouse,3 buttons, USB connectivity, Optical tracking, 800 dpi resolution </p>
+       <p><button>Add to Cart</button></p>
+     </div>
+
+     <div class="card">
+       <img src="clement-h-95YRwf6CNw8-unsplash.jpg" alt="Acer" style="width:50%">
+       <h1>Acer Extensa </h1>
+       <p class="price">R6000</p>
+       <p>Acer Extensa EX2519 Notebook Celeron Dual N3060 1.60Ghz 2GB 500GB 15.6" WXGA HD IntelHD BT Win 10 Home </p>
+       <p><button>Add to Cart</button></p>
+     </div>
+     <div class="card">
+       <img src="mb1.jpg" alt="Acer" style="width:50%">
+       <h1>Intel Server Board S1200SPLR</h1>
+       <p class="price">R 3,999.13 </p>
+       <p>Motherboard - micro ATX, Intel C236, 1 x LGA1151 Socket, 64 GB</p>
+       <p><button>Add to Cart</button></p>
+     </div>
+   </nav>
+   <aside>
+     <h2 style="text-align:center">LENOVO</h2>
+     <div class="card">
+       <img src="ram 3.jpg" alt="Lenovo" style="width:50%">
+       <h1>Crucial 8GB 1600mhz DDR3l Desktop</h1>
+       <p class="price">R 875</p>
+       <p>Crucial 240-pin DIMMs are used in DDR3 memory for desktop computers. DDR3 is the latest generation of memory with an improved architecture that allows it to transmit data more quickly.
+A dual inline memory module (DIMM) consists of a number of memory components (usually black) that are attached to a printed circuit board (usually green).
+The gold pins on the bottom of the DIMM provide a connection between the module and a socket on a larger printed circuit board.
+The pins on the front and back of a DIMM are not connected to each other.</p>
+       <p><button>Add to Cart</button></p>
+     </div>
+
+     <div class="card">
+       <img src="unsplash-5-KmbSe5ivg-unsplash.jpg" alt="Lenovo" style="width:50%">
+       <h1>Lenovo Thinkpad X1</h1>
+       <p class="price">R13500</p>
+       <p>From multi-monitor support to a rich MR/VR experience and even to intensive gaming, the ThinkPad X1 Extreme handles demanding computing tasks without a hitch. </p>
+       <p><button>Add to Cart</button></p>
+     </div>
+     <h2 style="text-align:center"></h2>
+
+     <div class="card">
+       <img src="alex-knight-j4uuKnN43_M-unsplash.jpg" alt="Lenovo" style="width:50%">
+       <h1>Lenovo ThinkPad T5805 </h1>
+       <p class="price">R16000</p>
+       <p>Maximize your true potential with the powerful ThinkPad T580. Its vivid 15" display lets you see everything and still be agile. Productivity-rich features include a 27-hour battery life, fast USB ports, and convenient side docking.  </p>
+       <p><button>Add to Cart</button></p>
+     </div>
+
+   </aside>
+ </div>
+ <footer>
+   <a href="#" class="fa fa-facebook"></a>
+ <a href="#" class="fa fa-twitter"></a>
+ <a href="#" class="fa fa-google"></a>
+ <a href="#" class="fa fa-linkedin"></a>
+ <a href="#" class="fa fa-youtube"></a>
+ <a href="#" class="fa fa-instagram"></a>
+ &copy Copyright
+ </footer>
+  </body>
+</html>
